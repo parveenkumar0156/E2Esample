@@ -18,12 +18,14 @@ public class listeners implements ITestListener{
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
+		// perform listener action on success, you can Add logs in log file or extent reports too.. hope it helps you .
+		
 		
 	}
 
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
+		//on Failrure can fail test case and attach screenshots
 		
 		
 		
